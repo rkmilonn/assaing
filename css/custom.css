@@ -1,0 +1,359 @@
+/** =======================
+	-CSS code Structure
+	1. Global css
+	2. Typography
+	3. Header section
+	4. Banner Section
+	5. Portpholio section
+	6. Footer Section
+=========================**/
+
+/* 1.0 Global CSS start */
+*{
+	margin: 0;	
+}
+
+body{
+	background-color: #ffffff;
+	font-size: 16px;
+}
+/* 1.0 Global CSS end */
+
+/* 2.0 Typography css start */
+	h1{
+		font-size: 40px;
+		color: #333;
+	}
+	h2{
+		font-size: 30px;
+		font-color: #2d3950;
+	}
+	h3{
+		font-size: 24px;
+		color: #2d3950;
+	}
+	h4{
+		font-size: 20px;
+		color: #2d3950;
+	}
+	h5{
+		font-size: 18px;
+		color: #2d3950;
+	}
+	h6{
+		font-size: 16px;
+		color: #2d3950;
+	}
+	p{
+		font-size: 16px;
+		color:#2d3950;
+	}
+	a{
+
+	}
+	a:hover{
+
+	}
+	p{
+	padding: 30px 200px;
+	font-size: 16px;
+	color: #333;
+	font-family: lato;
+}
+	u{
+	padding: 10px 0px;
+}
+img{
+	width: 100%;
+}
+/* 2.0 Typography css end */
+
+/* 3.0 Header Section Start */
+
+header{
+	padding: 10px 0px;
+}
+.container{
+		width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+		
+	}
+.header-logo{
+	width: 20%;
+	display: block;
+	float: left;
+	
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.logo{
+	width: 60px;
+}
+
+.menu{
+	width: 60%;
+	display: block;
+	float: left;
+	
+}
+.menu ul{
+	text-align: center;
+	margin: 0;
+
+}
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #333;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 20px; 
+	display: block;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.6s;
+
+}
+.menu ul li a:hover{
+	background-color: orange;
+	transition: 0.6s;
+	
+}
+.social-menu{
+	width: 20%;
+	float: right;
+}
+.social-menu ul{
+	text-align: right;
+	margin: 0;
+	margin-top: 15px;
+}
+.social-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.social-menu ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #333333;
+	padding: 9px;
+	display: block;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.6s;
+
+}
+.social-menu ul li a:hover{
+	background-color: orange;
+	transition: 0.6s;
+}
+
+/* 3.0 Header Section End */
+/* 4.0 Banner Section Start*/
+body{
+	font-family: lato;
+}
+.banner{
+	background: url(../images/banner.png) no-repeat;
+	background-size: cover;
+	float: left;
+	width: 100%;
+
+}
+.container h1{
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	padding-top: 200px;
+	font-family: lato;
+}
+.container h2{
+	text-align: left;
+	font-size: 50px;
+	color: #444242;
+	padding-top: 0px;
+	font-family: lato;
+	padding-left: 200px;
+}
+.container h6{
+	text-align: center;
+	font-size: 32px;
+	color: #fff;
+	padding: 40px 0;
+	font-family: lato;
+}
+.container h3{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	padding: 20px 0;
+	font-family: lato;
+}
+nav{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 300px;
+}
+.banner-manu{
+	text-align: center;
+	
+}
+.banner-menu ul{
+	text-align: center;
+	display: inline-block;
+}
+.banner-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.banner-menu ul li a{
+	text-decoration: none;
+	color: #f3f0f0;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 15px; 
+	display: block;
+	font-family: lato;
+	border-radius: 10px;
+}
+.banner-menu ul li a:hover{
+	transform: scale(.8);
+	-webkit-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	transition: ease 0.5s all;
+	background-color: orange;
+	transition: 0.6s;
+}
+.col-4{
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+}
+.profile{
+	width: 197px;
+	align-content: center;
+	margin: auto;
+    display: block;
+	margin-top: 0;
+	transform: scale(.8);
+	-webkit-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	transition: ease 0.5s all;
+}
+.profile:hover{
+	transform: scale(1.2);
+	cursor:pointer;
+}
+.col-4 img{
+	border-radius: 100%;
+} 
+.post h1{
+	color: #333;
+}
+/* 4.0 Banner Section End*/
+
+/* 5.0 Post Section Start*/
+.post p{
+	padding-top: 20px;
+	font-size: 20px;
+	color: #333;
+	font-family: lato;
+}
+.post u{
+	padding: 10px 0px;
+}
+
+.post-bottom{
+	padding-top: 20px;
+}
+.read-more{
+	width: 50%;
+	float: left;
+}
+.read-more a{
+	text-align: left;
+	padding-top: 20px;
+	font-size: 22px;
+	list-style-type: none;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #555555;
+	padding-left: 200px;
+}
+.icon-social{
+	width: 50%;
+	float: left;
+}
+.icon-social ul{
+	text-align: right;
+	padding-right: 165PX;
+}
+.icon-social ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+	font-size: 24px;
+}
+.icon-social ul li a{
+	font-weight: bold;
+	color: #555555;
+}
+
+
+/* 5.0 Post Section End*/
+/* 6.0 Footer section start*/
+footer{
+	background-color: #f4f8fb;
+	margin-top: 150px;
+}
+.footer-menu{}
+.footer-menu ul{
+	text-align: center;
+}
+.footer-menu ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 24px;
+	padding: 20px;
+	text-align: center;
+
+}
+.footer-menu ul li a{
+	color: #222323;
+}
+.footer-menu p {
+	text-align: center;
+	font-size: 16px;
+	padding-left: 245px;
+	line-height: 30px; 
+ }
+.back ul li a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	border: 2px solid;
+	padding: 10px;
+
+}
+.back{
+	padding-bottom: 100px;
+}
+.back ul li a:hover{
+	background-color: orange;
+	transition: 0.6s;
+}
+
+/* 6.0 Footer section end*/
